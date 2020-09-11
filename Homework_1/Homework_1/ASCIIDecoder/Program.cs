@@ -4,13 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ASCIIDecoder
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //code
+            int code;
+            string sa = Console.ReadLine();
+            code = int.Parse(sa);
+            Console.WriteLine((char)(code));
+
+            Console.ReadKey();
         }
     }
 }
